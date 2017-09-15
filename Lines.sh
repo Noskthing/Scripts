@@ -59,13 +59,7 @@ function enumFilesInPath()
 	return 0
 }
 
-function main()
-{
-	for para in $@
-	do
-		echo $para
-	done
-}
 
-main $@
 
+
+enumFilesInPath $1
